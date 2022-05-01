@@ -304,5 +304,5 @@ def calculate_entropy(input_str: str) -> float:
 
 
 def create_handler():
-    ACCESS_TOCKEN = 'e5195e41ccace7'
+    ACCESS_TOCKEN = '0000000000' #Put here correct tocken number.
     return ipinfo.getHandler(ACCESS_TOCKEN)
