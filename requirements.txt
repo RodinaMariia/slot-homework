@@ -1,0 +1,11 @@
+pandas~=1.2.4
+ipinfo~=4.2.1
+numpy~=1.20.1
+gensim~=4.1.2
+requests~=2.18.4
+streamlit~=1.8.1
+scikit-learn~=0.24.1
+nltk~=3.6.1
+gensim~=4.1.2
+ua-parser=2.2.0
+category-encoders~=2.4.0
