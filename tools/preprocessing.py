@@ -35,8 +35,8 @@ class Watchman:
         self._preprocess()
 
     def _preprocess(self):
-        self.df['meta4'] = self.df['meta4'].astype(int)
-        self.df['meta3'] = self.df['meta3'].astype(int)
+        self.df['meta4'] = self.df['meta4'].astype(float)
+        self.df['meta3'] = self.df['meta3'].astype(float)
         self.df['meta5'] = self.df['meta5'].fillna('')
         self.df['meta2'] = self.df['meta2'].fillna('')
         self.df['vector'] = self.df.vector.str.lower()
